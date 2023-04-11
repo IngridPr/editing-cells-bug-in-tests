@@ -36,5 +36,11 @@
       "\\.(css|less)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "testEnvironment": "jsdom"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      ["@babel/preset-react", {"runtime": "automatic"}]
+    ]
   }
 }
